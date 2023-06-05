@@ -1,6 +1,4 @@
 package com.shoppingKart;
 
-public class Product {
-    public Product(String iceberg, double v) {
-    }
+public record Product(String name, double price) {
 }

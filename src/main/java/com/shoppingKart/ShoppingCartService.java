@@ -6,7 +6,7 @@ public class ShoppingCartService {
     public ShoppingCartService(ProductRepository productRepository) {
     }
 
-    public void addItem(Product iceberg) {
+    public void addItem(Product product) {
         throw new UnsupportedOperationException();
     }
 
